@@ -23,7 +23,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","yato")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://aaryansah954:QgDQRgyD7VUa7Eho@cluster0.wjo9zfm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "8050")
     OWNER = int(os.environ.get("OWNER", "8644824052"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
