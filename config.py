@@ -11,30 +11,30 @@ TOKEN_VERIFY=False
 API = environ.get("API", "5a7508a173d6462e4cd4b723766b92541c389a6b") # shortlink api
 URL = environ.get("URL", "arolinks.com") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+Gt55OVP7VTAyNmNl") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "Ghjjjoooo_bot") # bot username without @
-VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
+BOT_USERNAME = environ.get("BOT_USERNAME", "RenamerRooolbot") # bot username without @
+VERIFY = environ.get("VERIFY", "False") # set True Or False and make sure spelling is correct and first letter capital.
 USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based on hours
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "38250529")
+    API_HASH  = os.environ.get("API_HASH", "87ba30a53f394110c5d056562f9d7f94")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8669763491:AAElAZE3wc_3sQa_OEJtvH8Emlf09UYoSzI") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_NAME = os.environ.get("DB_NAME","yato")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "8644824052"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
-    DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "").split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003795642946" ))
+    DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "-1003795642946")
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
